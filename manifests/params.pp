@@ -129,7 +129,6 @@ class nginx::params {
           'log_user'    => 'root',
           'log_group'   => 'adm',
           'log_mode'    => '0755',
-          'run_dir'     => '/run/nginx',
         }
       } else {
         $_module_os_overrides = {
@@ -137,7 +136,6 @@ class nginx::params {
           'log_user'    => 'root',
           'log_group'   => 'adm',
           'log_mode'    => '0755',
-          'run_dir'     => '/run/nginx',
         }
       }
     }
